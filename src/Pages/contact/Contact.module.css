@@ -1,0 +1,38 @@
+.banner {
+  background: #eafdff;
+  padding: 2.5rem 1rem 1rem 1rem;
+  text-align: center;
+  border-radius: 14px;
+  margin-bottom: 2rem;
+}
+.bannerTitle {
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.bannerSubtitle {
+  font-size: 1.1rem;
+  color: #444;
+}
+.infoGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 950px;
+}
+.infoCard {
+  background: white;
+  border-radius: 12px;
+  padding: 1.8rem 1.5rem;
+  flex: 1;
+  min-width: 260px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .infoGrid { flex-direction: column; }
+}
+.infoTitle { font-size: 1.1rem; font-weight: bold; margin-bottom: 0.3rem; }
+.infoDetail { color: #444; margin-bottom: 0.2rem; }
