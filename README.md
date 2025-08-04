@@ -11,15 +11,23 @@ Features
 Three unique themes:
 
 Theme 1: Minimalist layout with light background and simple sans-serif font.
+
 Theme 2: Dark mode with sidebar layout and bold serif font.
+
 Theme 3: Colorful card-based grid layout with playful Google Font (Pacifico).
 
 Fixed, responsive top header with app logo ,navigation links, and theme dropdown.
+
 Persistent theme selection stored in localStorage.
+
 Product data fetched from FakeStoreAPI.
+
 Multi-page routing (Home, About, Contact) with active link highlighting.
+
 Subtle theme switching animations.
+
 Fully responsive for desktop and mobile devices.
+
 Secure and maintainable codebase implemented with TypeScript.
 
 
