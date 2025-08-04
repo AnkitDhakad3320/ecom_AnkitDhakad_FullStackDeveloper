@@ -17,7 +17,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
   const [theme, setThemeState] = useState<ThemeKey>(() => {
-    return (localStorage.getItem("app-theme") as ThemeKey) || "theme2";
+    return (localStorage.getItem("app-theme") as ThemeKey) || "theme1";
   });
 
   const setTheme = (theme: ThemeKey) => {
